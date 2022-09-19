@@ -1,0 +1,32 @@
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    .playerX, .playerO{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 20px;
+        input{
+            margin-left: 20;
+            width: 300px;
+            height: 30px;
+        }
+    }
+}
+.pomView{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    .startDiv{
+        display: flex;
+        align-items: center;
+    }
+    p{
+        font-size: 24px;
+        margin: 0 0 0 15px;
+    }
+}
